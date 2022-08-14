@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../css/Regles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label id="gameTitle" alignment="TOP_CENTER" contentDisplay="CENTER" text="Sokoban" textAlignment="CENTER">
+		</Label>
+		<Label id="labelBut" text="Le but" />
+		<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Le but de notre sokoban est de &quot;voler&quot; les seringues en les amenant à l'entrepot">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></Text>
+		<Separator prefWidth="200.0" />
+		<Label id="labelRegle" text="Les règles" />
+		<TextArea id="txtRegle" editable="false" minHeight="265.0" text="Le joueur peut se déplacer à l’aide des touches Z,Q,S et D de son clavier.Il doit déplacer les seringues jusqu’à l’entrepôt. &#10;Pour se faire, il peut pousser uneseringue à la fois (mais pas les tirer). Le joueur doit aussi éviter les zombies. &#10;Les zombies détectent le joueur s’il passeà 3 cases d’eux mais ne tue uniquement qu’au corps à corps.&#10;Le joueur peut aussi tirer sur les zombies en appuyant sur les flèches direction-nelles de son clavier. &#10;&#10;Il doit cependant avoir une balle dans son pistolet pourpouvoir tirer. Balles qui sont ramassable sur la carte en passant dessus &#10;avec notrepersonnage ou en poussant une seringue dessus. Deux balles peuvent apparaîtrent sur la carte. &#10;La première, apparaît sur une casede manière aléatoire au bout de 5 déplacements. &#10;Cependant, certains niveauxétant très grand, une secondes balles apparaît au bout de 10 déplacements, à l’endroit de départ &#10;de notre personnage. A noter que chacune de ses deux ballesne peuvent pas apparaîtrent deux fois en même temps. &#10;Il faudra ramasser une balle pour qu’elle puisse réapparaître ailleurs.&#10;&#10;Pour gagner la partie, il faut réussir à rapporter toutes les seringues de la mapdans les entrepôts sans se faire tuer par &#10;les zombies. &#10;Le score représente le nombre de déplacement fait par le joueur.">
+			<VBox.margin>
+				<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+			</VBox.margin>
+		</TextArea>
+		<Separator prefWidth="200.0" />
+		<Label id="labelAff" text="L'affichage" />
+		<HBox alignment="CENTER">
+			<children>
+				<Label id="affMur" text="Mur" />
+				<Label id="affCase" text="Case vide" />
+				<Label id="affEntrepot" text="Entrepot" />
+				<Label id="affJoueur" text="Joueur" />
+				<Label id="affDiamant" text="Diamant" />
+				<Label id="affGardien" text="Zombie" />
+			</children>
+		</HBox>
+		<Separator prefWidth="200.0" />
+		<Label id="LabelTouche" text="Les touches" />
+		<HBox alignment="CENTER">
+			<children>
+				<Label id="ToucheDeplacement" text="Pour se déplacer" />
+				<Separator orientation="VERTICAL" prefHeight="200.0">
+					<HBox.margin>
+						<Insets left="50.0" right="20.0" />
+					</HBox.margin>
+				</Separator>
+				<Label id="ToucheTirer" text="Pour tirer" />
+				<Separator orientation="VERTICAL" prefHeight="200.0">
+					<HBox.margin>
+						<Insets left="20.0" right="50.0" />
+					</HBox.margin>
+				</Separator>
+				<Label id="ToucheReset" text="Pour reset" />
+			</children>
+			<VBox.margin>
+				<Insets />
+			</VBox.margin>
+		</HBox>
+	</children>
+</VBox>

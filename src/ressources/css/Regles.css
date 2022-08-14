@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+.root{
+	-fx-background-color: #F0F4F8;
+	-fx-alignment: center;
+	-fx-padding: 15px;
+}
+
+.label {
+	-fx-font: 16px "Comic Sans MS";
+	-fx-padding: 8px;
+}
+
+#gameTitle{
+	-fx-font: bold 28px Pacifico;
+	-fx-text-fill: #044E54;
+	-fx-padding: 0 0 25px 0;
+}
+
+#labelBut{
+	-fx-font: bold 20px "Comic Sans MS";
+	-fx-text-fill: #cc0000;
+}
+
+#labelRegle{
+	-fx-font: bold 20px "Comic Sans MS";
+	-fx-text-fill: #cc0000;
+}
+
+#labelAff{
+	-fx-font: bold 20px "Comic Sans MS";
+	-fx-text-fill: #cc0000;
+}
+
+#labelTouche{
+	-fx-font: bold 20px "Comic Sans MS";
+	-fx-text-fill: #cc0000;
+}
+
+#affMur {
+	-fx-graphic: url("../img/mur/carre.png");
+}
+
+#affDiamant {
+	-fx-graphic: url("../img/diamant.png");
+}
+
+#affGardien {
+	-fx-graphic: url("../img/zombie/stand/haut/idle_0.png");	
+}
+
+#affJoueur {
+	-fx-graphic: url("../img/joueur.png");
+}
+
+#affCase {
+	-fx-background-image: url("../img/mur/case.png");
+}
+
+#affEntrepot {
+	-fx-graphic: url("../img/case.png");
+}
+
+#ToucheDeplacement{
+	-fx-graphic: url("../img/toucheDeplacement.png");
+	-fx-content-display: bottom;
+}
+
+#ToucheTirer{
+	-fx-graphic: url("../img/toucheTirer.png");
+	-fx-content-display: bottom;
+}
+
+#ToucheReset{
+	-fx-graphic: url("../img/toucheR.png");
+	-fx-content-display: bottom;
+}

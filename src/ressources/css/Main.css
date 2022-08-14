@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+.root{
+	-fx-background-color: #F0F4F8;
+	-fx-alignment: center;
+	-fx-padding: 15px;
+}
+
+#regleButton{
+	-fx-font: 16px "Comic Sans MS";
+	-fx-background-color: #E66A6A;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #fff;
+	-fx-padding: 8px;
+	-fx-font-weight: bold;
+}
+
+#nivStart{
+	-fx-font: 16px "Comic Sans MS";
+	-fx-background-color: #34C924;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #fff;
+	-fx-padding: 8px;
+	-fx-font-weight: bold;
+}
+
+#creationNiveau{
+	-fx-font: 16px "Comic Sans MS";
+	-fx-background-color: #a442f5;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #fff;
+	-fx-padding: 8px;
+	-fx-font-weight: bold;
+}
+
+#main{
+	-fx-background-image:url("../img/background_home.png");
+}

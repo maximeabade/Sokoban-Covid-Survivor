@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+.root{
+	-fx-background-color: #F0F4F8;
+	-fx-alignment: center;
+	-fx-padding: 15px;
+}
+
+#gameTitle{
+	-fx-font: bold 28px Pacifico;
+	-fx-text-fill: #044E54;
+	-fx-padding: 0 0 40px 0;
+	-fx-font-weight: bold;
+}
+
+.mur {
+	-fx-graphic: url("../img/mur/carre.png");
+}
+
+.seringue {
+	-fx-background-image: url("../img/mur/case.png");
+	-fx-graphic: url("../img/diamant.png");
+}
+
+.zombie {
+	-fx-background-image: url("../img/mur/case.png");
+	-fx-graphic: url("../img/zombie/stand/droite/idle_0.png");	
+}
+
+.joueur {
+	-fx-background-image: url("../img/mur/case.png");
+	-fx-graphic: url("../img/joueur/stand/droite/idle_handgun_0.png");
+}
+
+.case {
+	-fx-graphic: url("../img/mur/case.png");
+}
+
+.entrepot {
+	-fx-graphic: url("../img/case.png");
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="main" alignment="CENTER" maxHeight="720" maxWidth="1280" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/Main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sokoban.app.MainController">
+	<children>
+		<Label text="Choississez votre niveau" />
+		<ChoiceBox fx:id="selecNiv" prefWidth="150.0" />
+		<Button id="regleButton" alignment="CENTER" mnemonicParsing="false" onAction="#openRegle" text="Les règles" />
+      <Button id="creationNiveau" mnemonicParsing="false" onAction="#createNiv" text="Créer un niveau" />
+		<Button id="nivStart" mnemonicParsing="false" onAction="#openNiv" text="Lancer le niveau" />
+	</children>
+</VBox>
